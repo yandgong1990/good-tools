@@ -14,4 +14,9 @@ judge for sever object
 #######################################################################################
 gl() #generate fator level
 #######################################################################################
-
+markdown tips：
+##hide the code
+{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+## hide warning and message when library package
+{r message = FALSE, warning = FALSE}
