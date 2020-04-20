@@ -21,9 +21,4 @@ knitr::opts_chunk$set(echo = FALSE)
 ## hide warning and message when library package
 {r message = FALSE, warning = FALSE}
 
-##########################################cell-cell interaction #####################################
-1. cellphoneDB
-2.iTALK
-3. celltalkr
-4.scTHI: interactions between cancer and immune cell
-5.nichenetr: wrapper with seurat
+
