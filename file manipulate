@@ -2,6 +2,17 @@
 tidyverse： good tools !!!!!!! ； using combined with pip operation
 xtabs()
 aggragrate()
+
+另外purrr是个非常实用的包，配合pip进行使用
+set.seed(1)
+dms <- c('euclidean', 'cosine', 'rankcor') %>% #, 'l2'
+    set_names() %>%
+    map(~ DiffusionMap(allen_hvg, distance = ., knn_params = list(method = 'covertree')))
+ 
+options(repr.plot.width = 14, repr.plot.height = 4)
+dms %>%
+    imap(function(dm, dist) plot(dm, 1:2, col_by = 'driver_1_s') + ggtitle(dist)) %>%
+    cowplot::plot_grid(plotlist = ., nrow = 1)
 ########################################################################################
 do.call
 Reduce
@@ -20,5 +31,9 @@ markdown tips：
 knitr::opts_chunk$set(echo = FALSE)
 ## hide warning and message when library package
 {r message = FALSE, warning = FALSE}
-
+##################################矩阵的上下三角########################################
+lower.tri
+upper.tri
+返回逻辑值
+#######################################################################################
 
