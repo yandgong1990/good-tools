@@ -1,7 +1,7 @@
 ###################################adjust size of picture using R code in jupyter lab ################################ 
 
 oh <- options('repr.plot.height')
-options(repr.plot.height = 3)
+options(repr.plot.height = 3)/options(repr.plot.width = 14, repr.plot.height = 4)
 .......
 options(oh)
 
