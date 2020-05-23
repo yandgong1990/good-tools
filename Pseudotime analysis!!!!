@@ -1,0 +1,5 @@
+####################################################DiffusionMap/DPT###############################
+package:destiny
+strength: deal with miss value and censor data
+from: https://github.com/theislab/destiny/blob/master/vignettes/Diffusion-Maps.ipynb
+###################################################################################################
