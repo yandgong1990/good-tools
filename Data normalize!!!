@@ -1,0 +1,8 @@
+##########方法一：利用管家基因的平均表达（下面的例子是标准化了qPCR的测序结果）###########################
+housekeepers <- c('Actb', 'Gapdh')  # houskeeper gene names
+
+normalizations <- colMeans(exprs(cleaned_ct)[housekeepers, ])
+
+guo_norm <- cleaned_ct
+exprs(guo_norm) <- exprs(guo_norm) - normalizations
+################################################################
