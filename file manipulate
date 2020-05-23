@@ -35,5 +35,9 @@ knitr::opts_chunk$set(echo = FALSE)
 lower.tri
 upper.tri
 返回逻辑值
-#######################################################################################
-
+##################################基因名字转换mapIds##########################################
+allen <- as(allen, 'SingleCellExperiment')
+rowData(allen)$Symbol <- rownames(allen)
+rowData(allen)$EntrezID <- AnnotationDbi::mapIds(org.Mm.eg.db::org.Mm.eg.db, rownames(allen), 'ENTREZID', 'ALIAS')
+rowData(allen)$Uniprot <- AnnotationDbi::mapIds(org.Mm.eg.db::org.Mm.eg.db, rownames(allen), 'UNIPROT', 'ALIAS', multiVals = 'list')
+#############################################################################################
