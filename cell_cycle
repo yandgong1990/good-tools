@@ -1,0 +1,7 @@
+################################remove cc genes using co-relation##########################################
+we found that cell cycle and ribosomal associated genes can have a significant impact on the definition of cell clustering and on cell-to-cell transcriptional
+distance. For this reason, we defined a G2/M genes set (UBE2C,HMGB2, HMGN2, TUBA1B, MKI67, CCNB1, TUBB, TOP2A, TUBB4B) and
+ribosomal genes set (RPL− and RPS−). We then constructed a G2/M and a ribosomal signature score by summing the average z score of respective genes sets
+and removing genes that were highly correlated (Pearson r > 0.2) with these signatures (sorted Lin−HSPC, n = 117 genes; sorted CD34/CD164 cells, n = 304
+genes). Finally, we performed dimensionality reduction by principal component analysis (PCA).
+##########################################################################################
