@@ -3,6 +3,6 @@
 2.iTALK
 3. celltalkr
 4.scTHI: interactions between cancer and immune cell
-5.nichenetr: wrapper with seurat
+5.nichenetr: wrapper with seurat(可以用来分析不同的条件对细胞间相互作用以及靶基因的影响)
 6.CellChat
 7.SingleCellSignalR
