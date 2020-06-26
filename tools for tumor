@@ -24,4 +24,6 @@ chemotherapy resistant muscle-invasive bladder cancer. Nature communications 201
 2. 由于参考基因组有限，会导致比对不全，以及该区域的GC含量较高，测序时候不易捕获，导致覆盖率低，所以比对进一步欠准确
 
 另外还有多个工具，例如HLAscan， HLAreporter等等
-######################################################################################################
+#########################################差异的突变##########################################################
+We used MutSig2CV (26) to identify significantly mutated genes across our cohort of pre-CRT
+and post-CRT tumors. 
