@@ -1,3 +1,4 @@
 ##########################推断肿瘤组织的肿瘤的纯度以及倍性 ##############################
 Absolute   ： R package
+And we can construct phylogenetic tree of clones and subclones using ABSOULTE extension
 #######
