@@ -1,4 +1,22 @@
 ##########################推断肿瘤组织的肿瘤的纯度以及倍性 ##############################
 Absolute   ： R package
 And we can construct phylogenetic tree of clones and subclones using ABSOULTE extension
+
+##########################deduce clones and subclones
+ As described in Brastianos
+et al (36), clones and subclones were determined through Markov Chain Montecarlo sampling
+using Dirichlet process Mixture Models on pre- and post-CRT mutation CCFs, which assigns
+mutations to subclones without pre-specifying the number of subclones. Mutations inferred to be
+in a subclone with a CCF ≥ 0.8 were described as “clonal” while those inferred to be in a
+subclone with CCF < 0.8 were called “subclonal.” For each subclone, two CCFs were inferred;
+one CCF in the pre-treatment tumor and CCF in the post-treatment tumor (23).
+
+36. Brastianos PK, Carter SL, Santagata S, Cahill DP, Taylor-Weiner A, Jones RT, et al. Genomic
+Characterization of Brain Metastases Reveals Branched Evolution and Potential Therapeutic
+Targets. Cancer discovery 2015;5:1164-77
+
+23. Liu D, Abbosh P, Keliher D, Reardon B, Miao D, Mouw K, et al. Mutational patterns in
+chemotherapy resistant muscle-invasive bladder cancer. Nature communications 2017;8:2193
+
+
 #######
