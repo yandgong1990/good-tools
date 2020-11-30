@@ -1,0 +1,6 @@
+clValid：
+#####SOTA analysis#####
+
+The identification of gene patterns among COVID-19 patients with different severities was performed by way of SOTA function from the clValid package. 
+The number of gene modules was adjusted in terms of their variation tendencies. Then, genesbelonging to each pattern were used to carry out the gene ontology
+enrichment analysis by Metascape.
